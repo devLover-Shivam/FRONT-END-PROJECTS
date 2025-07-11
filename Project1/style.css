@@ -31,7 +31,7 @@ html,body{
 }
 
 #nav img {
-    width: 70px;
+    width: 100px;
 }
 
 #right{
@@ -58,7 +58,7 @@ html,body{
 #home #homemain{
 
     width: 100%;
-    padding: 15vw 16vw;
+    padding: 15vw 10vw;
   
 }
 
@@ -69,8 +69,16 @@ html,body{
 
 .headings{
     display: flex;
-    align-items: center;
-    gap: 100px;
-    padding: 5vw 0;
-    font-size: 5vw;
+    gap: 80px;
+}
+
+#homemain .headings h1 {
+  font-size: 7vw;
+  color: transparent;
+  -webkit-text-stroke: 0.5px #000;
+  font-weight: 700; /* thinner base path */
+  letter-spacing: -3px;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
