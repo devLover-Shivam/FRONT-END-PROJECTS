@@ -1,0 +1,7 @@
+1. smooth scrolling
+-> attatch loco scroll css
+->attatch locomotive scroll min js
+->code from loco github for js
+
+2. gsap
+-> attatch gsap cdn
